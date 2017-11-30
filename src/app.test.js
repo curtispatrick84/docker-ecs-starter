@@ -20,6 +20,6 @@ describe('generateDots()', () => {
   })
 
   it('should render the specified amount of animated dots', () => {
-    expect(generateDots(3)).toHaveLength(3)
+    expect(generateDots(3)).toHaveLength(4)
   })
 })
